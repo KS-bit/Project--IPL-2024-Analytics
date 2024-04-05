@@ -14,6 +14,6 @@ Select batsmanname,
         End As Boundary_Percentage,
         total_runs,boundary_runs
 FROM boundary_runs_table 
-Order By total_runs DESC,Boundary_Percentage Desc
+Order By boundary_runs DESC,Boundary_Percentage Desc
 Limit 5
 

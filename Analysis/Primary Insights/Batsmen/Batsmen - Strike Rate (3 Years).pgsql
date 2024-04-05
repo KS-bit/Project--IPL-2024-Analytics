@@ -13,7 +13,6 @@ With Final_table as (
     from bat_avg 
     group by bat_avg.batsmanname
     having count(bat_avg.batsmanname) =3
-    order by bat_avg.batsmanname
 )
 
 Select F.batsmanname,Sum(runs) as total_runs, Round((Cast(Sum(runs) as decimal)/sum(balls)) *100,2) as Strike_Rate
