@@ -11,12 +11,12 @@ With Final_table as(
     )
     Select bowlername
     from year_wise
-    group by bowlername 
+    group by bowlername
     Having count(bowlername) =3
 )
-Select F.bowlername,Sum(B.No_of_balls) as total_balls
+Select F.bowlername,Round(Cast(Sum(runs) as decimal)/Sum(wickets),2) as bowling_avg
 From Final_table F
 Left Join Bowling_Summary B ON F.bowlername = B.bowlername
 Group By F.bowlername
-Order by total_balls DESC
+Order by bowling_avg
 Limit 10 
