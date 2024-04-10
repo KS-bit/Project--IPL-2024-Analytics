@@ -14,10 +14,11 @@
 
 4. Creative Presentation: Present the findings and predictions creatively to engage the audience effectively.
 
-Analysis Overview 📈
+## Analysis Overview 📈
+
 We employed SQL queries to analyze the data, focusing on various aspects such as player statistics, team performance, and match outcomes. The SQL queries used for analysis can be found in the Analysis Folder.
 
-Dashboard 📊
+# Dashboard 📊
 
 ![Screenshot 2024-04-11 043127](https://github.com/KS-bit/Project--IPL-2024-Analytics/assets/73174701/ce267412-2e21-4e60-9766-d45942097960)
 
