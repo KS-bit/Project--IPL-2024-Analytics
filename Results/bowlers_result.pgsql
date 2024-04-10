@@ -15,8 +15,8 @@ With Final_table as(
 Select F.bowlername,
     Round(Cast(Sum(B.runs) as decimal)/(Sum(B.No_of_balls)/6),2) as Economy_rate,
     Round(Cast(Sum(runs) as decimal)/Sum(wickets),2) as bowling_avg,
+    Round(Cast(Sum("0s") as decimal)/Sum(No_of_balls) *100,2) as Dot_ball_percentage,
     Sum(B.runs) as total_runs_given
 From Final_table F
 Left Join Bowling_Summary B ON F.bowlername = B.bowlername
 Group By F.bowlername
-Order by Economy_rate DESC, total_runs_given Asc

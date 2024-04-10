@@ -20,5 +20,4 @@ Select F.batsmanname,
 from Final_table F
 left join bating_summary b on F.batsmanname = b.batsmanname
 group by F.batsmanname
-Order by total_runs DESC ,Batting_Avg DESC
 
