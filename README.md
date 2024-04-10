@@ -1,10 +1,10 @@
-#Unveiling Insights: IPL 2024 Special Edition
+# Unveiling Insights: IPL 2024 Special Edition
 
-##Problem Statement
+## Problem Statement
 
 "Sports Basics" aims to increase website traffic by releasing a special edition magazine focusing on IPL 2024. We're tasked with analyzing the past 3 years' data to provide insights on players and team performance, design a dashboard, and make predictions for the upcoming season.
 
-##Task Overview
+## Task Overview
 
 **Analyzing provided data.**
 
