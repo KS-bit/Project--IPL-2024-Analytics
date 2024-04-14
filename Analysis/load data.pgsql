@@ -1,5 +1,5 @@
 Create Database IPL_db;
-drop table match_summary
+
 --Match Summary
 CREATE TABLE Match_Summary (
     team1 TEXT,	
